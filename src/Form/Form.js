@@ -8,7 +8,7 @@ class Form extends Component {
             name: '',
             date: '',
             time: '',
-            numberOfGuests: 0,
+            number: 0,
         }
     }
 
@@ -60,7 +60,7 @@ class Form extends Component {
                     placeholder='Number of Guests'
                     name='numberOfGuests'
                     min='1'
-                    value={this.state.numberOfGuests}
+                    value={this.state.number}
                     onChange={this.handleChange}
                 />
 
